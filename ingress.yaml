@@ -6,7 +6,7 @@ metadata:
   namespace: argocd
   annotations:
     kubernetes.io/ingress.class: nginx
-    cert-manager.io/cluster-issuer: test-selfsigned
+    cert-manager.io/cluster-issuer: selfsigned-cluster-issuer
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
     nginx.ingress.kubernetes.io/ssl-passthrough: "true"
     nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
